@@ -1,0 +1,426 @@
+.header{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.header__nav .header__menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: var(--font-text);
+    font-weight: 500;
+    align-items: center;
+
+}
+
+.header .header__logo{
+    display: flex;
+    align-items: center;
+}
+
+.header .header__group{
+    display: flex ;
+    justify-content: center;
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 50px;
+    position: fixed;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+    z-index: 5;
+}
+
+.container-one{
+    background-image: url(https://themewagon.github.io/softy-pinko/assets/images/banner-bg.png);
+    width: auto;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header .header__nav{
+    margin-left: 3rem;
+}
+
+/* Section 1 content */
+
+.container-one .header__content{
+    margin-top: 10rem;
+    padding: 8rem 19rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.header__content .content__heading{
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.header__content .content__desc{
+    margin-bottom: 2rem;
+}
+
+.header__content .button{
+    background-color: var(--color-bold-pink);
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    width: 11rem;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header__content .button:hover{
+    background-color: var(--color-pink-purple);
+}
+
+/* HEADER END ITEMS */
+
+.header__items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header__items .item{
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.header__items .item .item__logo{
+    background-color: var(--color-pink-purple);
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.item h2{
+    margin: 1.5rem auto;
+    font-size: 1.1rem;
+}
+
+.item p{
+    font-size: 1rem;
+    color:rgb(107, 107, 107);
+}
+
+.header__items .item .item__logo:hover{
+    background-color: var(--color-bold-pink);
+}
+
+
+/* SECTION TWO */
+.intro__group{
+    margin: 10rem auto;
+}
+.intro__group .intro{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-bottom: 7rem;
+
+}
+
+.intro .intro__content{
+    display: block;
+    
+}
+
+.intro__content h2{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.intro__content p{
+    font-size: 1rem;
+    width: 80%;
+    color: rgb(107, 107, 107);
+}
+
+.intro .one{
+    margin-left: 10rem;
+
+}
+
+.intro .two{
+    margin-right: 10rem;
+}
+
+.intro .intro__img{
+    width: 50rem;
+}
+
+
+.Work__process{
+    background-image: url(https://themewagon.github.io/softy-pinko/assets/images/work-process-bg.png);
+    padding: 5rem;
+    text-align: center;
+}
+
+
+.item__container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+.head__content{
+    color: white;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+}
+
+.desc__content{
+    color: white;
+    margin-bottom: 4rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item__container .item__process{
+    margin: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    border-radius: 15px; 
+    box-shadow: 12px 12px 0px 0.6px rgba(255, 254, 254, 0.2);
+}
+
+.item__process:hover{
+    position: relative;
+    top: -0.5rem;
+}
+
+.item__process .item__logo,
+.item .logo {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1rem;
+}
+
+.item__process h5{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.item__process p{
+    font-size: 0.9rem;
+    color: rgb(107, 107, 107);
+}
+
+
+/* END section Process */
+
+
+/* Start scetion Comment */
+
+.content__group{
+    text-align: center;
+}
+.head__comment{
+    color: black;
+    margin-top: 5rem;
+}
+
+.desc__comment{
+    color: rgb(107, 107, 107);
+}
+
+.comment__section .comment__items{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+}
+
+.item__box .item{
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.item p{
+    font-size: 0.98rem;
+    font-weight: 350;
+}
+
+.item .author{
+    margin-top: 2rem;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.author img{
+    border-radius: 50%;
+}
+
+.author .author__info{
+    margin-left: 1rem;
+}
+
+.author__info .Name{
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.author__info .position{
+    color: var(--color-bold-pink);
+}
+
+.author__info:hover{
+    position: relative;
+    left: 1rem;
+}
+
+
+/* Start of Pricing Plans */
+
+.pricing__plans{
+    background-color: #F2F2FE;
+    margin-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+.pricing__group{
+    padding-top: 2rem;
+}
+
+.product__box .product__cont{
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 2rem 0;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.product__cont h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 1.5rem auto;
+}
+
+.product__cont .button{
+    background-color: var(--color-pink-purple);
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: #Fff;
+    margin-bottom: 3rem;
+}
+
+ p{
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: rgb(107, 107, 107);
+}
+
+
+.button .button_des{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color:#fff;
+}
+
+.product__cont .btn__pink{
+    background-color: var(--color-bold-pink);
+}
+
+.purchase__btn{
+    background-color: var(--color-pink-purple);
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    border: 0px;
+    border-radius: 20px;
+    color:#fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.purchase__btn:hover{
+    background-color: var(--color-bold-pink);
+}
+
+/* END SECTION PURCHASE */
+
+/* START OF DATA SECTION */
+
+.data__section{
+    background-image: url(https://themewagon.github.io/softy-pinko/assets/images/work-process-bg.png);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: #fff;
+}
+
+.data__group{
+    text-align: center;
+}
+
+.data__item h3{
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.data__item p{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.data__item:hover{
+     position: relative;
+     top: -1rem;
+}
+
+/* END OF DATA SECTION */
+
+/* START OF BLOG SECTION */
+
+.blog__content{
+    margin-top: 6rem;
+}
+.blog__content .head__content{
+    color: black;
+}
+
+.blog__content .desc__content{
+    color: var(--text-gray);
+}
+
+.blog__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__container .blog__box{
+    text-align: center;
+}
+
+.blog__box h5{
+    margin: 2rem auto;
+}
